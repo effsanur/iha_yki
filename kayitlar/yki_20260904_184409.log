@@ -1,0 +1,33 @@
+[18:44:09] BILGI: MAVLink dinleniyor: udpin:0.0.0.0:14550
+[18:44:09] BILGI: YKİ başladı — kaynak: otomatik, config: /home/efsanur/Desktop/iha_yki/config.yaml
+[18:44:09] BILGI: Yarışma günü: güvenlik duvarını kapatmayı unutmayın (sudo ufw disable)
+[18:44:09] BILGI: Görev alıcısı dinliyor: UDP 42000 (kilitlenme/QR)
+[18:44:32] BASARI: MAVLink akışı alındı (sistem 1)
+[18:44:32] BILGI: FCU: Barometer 1 calibration complete
+[18:44:32] BILGI: FCU: Barometer 2 calibration complete
+[18:44:32] BILGI: FCU: Airspeed 1 calibration started
+[18:44:32] BILGI: FCU: ArduPilot Ready
+[18:44:32] UYARI: FCU: Throttle failsafe off
+[18:44:32] BILGI: FCU: Field Elevation Set: 584m
+[18:44:32] BILGI: FCU: Airspeed 1 calibrated
+[18:44:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[18:44:32] HATA: SINIR İHLALİ! Uçuş alanının dışına çıkıldı (10 sn'de eleme, -200)
+[18:44:33] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[18:44:33] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[18:44:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[18:44:36] HATA: Komut cevabı (id 410): BAŞARISIZ
+[18:44:37] BILGI: FCU: GPS 1: probing for u-blox at 230400 baud
+[18:44:37] BILGI: FCU: GPS 1: detected u-blox
+[18:44:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[18:44:39] BILGI: FCU: EKF3 IMU0 initialised
+[18:44:39] BILGI: FCU: EKF3 IMU1 initialised
+[18:44:41] BILGI: FCU: EKF3 IMU0 tilt alignment complete
+[18:44:41] BILGI: FCU: EKF3 IMU1 tilt alignment complete
+[18:44:41] BILGI: FCU: EKF3 IMU0 MAG0 initial yaw alignment complete
+[18:44:41] BILGI: FCU: EKF3 IMU1 MAG0 initial yaw alignment complete
+[18:44:49] BILGI: FCU: EKF3 IMU0 origin set
+[18:44:49] BILGI: FCU: EKF3 IMU1 origin set
+[18:44:49] BILGI: FCU: EKF3 IMU0 is using GPS
+[18:44:49] BILGI: FCU: EKF3 IMU1 is using GPS
+[18:47:24] HATA: FCU/telemetri bağlantısı KOPTU!
+[18:47:25] UYARI: MAVLink akışı kesildi (3 sn paket yok)

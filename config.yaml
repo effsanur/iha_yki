@@ -1,0 +1,73 @@
+# =====================================================================
+#  Savaşan İHA YKİ yapılandırması — TEKNOFEST 2026
+#  Yarışma günü değişecek alanlar: sunucu.url, kadi, sifre,
+#  harita.sinir, harita.min_irtifa, harita.maks_irtifa
+#  Değişiklik sonrası arayüzden "Config'i yeniden yükle" kullanılabilir.
+# =====================================================================
+
+sunucu:
+  url: "http://127.0.0.1:5000"      # yarışma günü bildirilen adres (http://IP:5000)
+  kadi: "takimkadi"                 # takıma verilen kullanıcı adı
+  sifre: "takimsifresi"             # takıma verilen şifre
+  takim_numarasi: 1                 # girişte sunucudan gelen numara ile güncellenir
+  telemetri_hz: 1.5                 # 1.0 - 2.0 arası (1.5 önerilir: 1 Hz isterini garantiler, 2 Hz limitine takılmaz)
+  saat_senk_sn: 10.0                # sunucu saati senkron aralığı
+  hss_sorgu_sn: 2.0                 # sürekli HSS sorgusu aralığı
+  zaman_asimi_sn: 2.0               # HTTP zaman aşımı
+
+baglanti:
+  # otomatik: MAVLink dinlenir, rosbridge yedek olarak denenir
+  # mavlink | rosbridge | sim  değerleri de kullanılabilir
+  kaynak: "otomatik"
+  # Jetson'da MAVROS şu şekilde başlatılırsa paketler buraya düşer:
+  #   ros2 launch mavros apm.launch fcu_url:=/dev/ttyACM0:921600 gcs_url:=udp://@YKI_IP:14550
+  mavlink_url: "udpin:0.0.0.0:14550"
+  mavlink_baud: 57600               # seri bağlantı kullanılırsa (örn. mavlink_url: /dev/ttyUSB0)
+  rosbridge_host: "192.168.1.20"    # Jetson/RPi IP (rosbridge_websocket çalışıyor olmalı)
+  rosbridge_port: 9090
+
+gorev:
+  kilitlenme_udp_port: 42000        # Jetson görüntü işleme -> YKİ JSON portu
+  kilitlenme_esigi_sn: 4.0          # kesintisiz kilit isteri (şartname: 4 sn)
+  kilit_bosluk_toleransi_sn: 0.25   # kısa kare kayıpları oturumu bozmasın
+  kilit_otomatik_gonder: true       # 4 sn dolduysa kilit bitiminde paketi otomatik gönder
+  kamikaze_otomatik_gonder: true    # dalış işaretliyken QR okununca otomatik gönder
+  video_url: ""                     # örn: "rtsp://192.168.1.20:8554/kamera" veya "udp://0.0.0.0:5600" (boş = kapalı)
+
+# Şartname 6.1.7: yarı-oto modlar (FBWA/FBWB/CRUISE vb.) MANUEL sayılır.
+# Buradaki liste "otonom" kabul edilen ArduPlane modlarıdır; gerekirse düzenleyin.
+otonom_modlar: [AUTO, GUIDED, RTL, LOITER, CIRCLE, TAKEOFF, LAND, QRTL, QLOITER, QLAND, AUTOLAND]
+
+komut:
+  varsayilan_irtifa: 100            # haritada sağ tık "Buraya Uç" hedef irtifası (m)
+  varsayilan_hiz: 20                # hız komutu varsayılanı (m/s)
+
+harita:
+  merkez: [40.2306, 29.0060]        # harita ilk açılış merkezi
+  uydu:
+    aktif: true                     # uydu görüntüsü katmanı (araç çubuğundan da açılıp kapanır)
+    # XYZ karo şablonu ({z}/{x}/{y}). Varsayılan: ESRI World Imagery (anahtarsız).
+    # Google uydu alternatifi: "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}"
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+    onbellek: "harita_onbellek"     # indirilen karolar buraya kaydedilir; sahada İNTERNETSİZ çalışır.
+                                    # Yarışmadan önce internetliyken araç çubuğundan
+                                    # "Uydu haritasını önbelleğe indir" çalıştırın!
+  # Yarışma sınır köşeleri (saat yönünde, [enlem, boylam]).
+  # Teknik kontrol günü hakemlerin paylaştığı köşe koordinatlarını buraya girin!
+  sinir:
+    - [40.2340, 29.0010]
+    - [40.2340, 29.0110]
+    - [40.2280, 29.0110]
+    - [40.2280, 29.0010]
+  min_irtifa: 30.0                  # hakemlerce bildirilecek alt sınır (m, kalkışa göre)
+  maks_irtifa: 200.0                # hakemlerce bildirilecek üst sınır (m)
+
+musabaka:
+  sure_dk: 15.0                     # tur süresi
+  otonomi_hedef_yuzde: 75.0         # puan için asgari otonom uçuş oranı
+  manuel_gecis_limiti: 3            # tur başına manuel geçiş limiti (aşan her geçiş -10)
+  sinir_disi_limit_sn: 10.0         # tek seferde bu kadar dışarıda = eleme (-200)
+  hss_toplam_limit_sn: 30.0         # HSS içinde toplam bu süre = iniş çağrısı
+
+kayit:
+  klasor: "kayitlar"                # olay günlükleri
