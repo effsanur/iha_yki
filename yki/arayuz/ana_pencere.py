@@ -151,15 +151,21 @@ class AnaPencere(QMainWindow):
         orta_duzen.addWidget(self.gorev_seridi)
         bolucu.addWidget(orta)
 
-        # sağ: görev/kamera sekmeleri (kilitlenme + kamikaze, HSS, kamera)
-        self.sekmeler = QTabWidget()
+        # sağ: kamera alanı, görev/HSS sekmeleri
+        self.sag_panel = QWidget()
+        sag_duzen = QVBoxLayout(self.sag_panel)
+        sag_duzen.setContentsMargins(0, 0, 0, 0)
         self.gorev_paneli = GorevPaneli(self.uyg)
         self.hss_paneli = HssPaneli(self.uyg)
         self.video_paneli = VideoPaneli(self.uyg)
+        sag_duzen.addWidget(self.video_paneli, 2)
+
+        self.sekmeler = QTabWidget()
+        self.sekmeler.setTabPosition(QTabWidget.North)
         self.sekmeler.addTab(self.gorev_paneli, "GÖREV")
         self.sekmeler.addTab(self.hss_paneli, "HSS")
-        self.sekmeler.addTab(self.video_paneli, "KAMERA")
-        bolucu.addWidget(self.sekmeler)
+        sag_duzen.addWidget(self.sekmeler, 1)
+        bolucu.addWidget(self.sag_panel)
 
         bolucu.setStretchFactor(0, 2)
         bolucu.setStretchFactor(1, 6)

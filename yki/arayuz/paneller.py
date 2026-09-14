@@ -70,7 +70,6 @@ class DurumSeridi(QWidget):
         super().__init__()
         self.mod = Cip("MOD")
         self.arm = Cip("ARM")
-        self.otonomi = Cip("OTONOMİ")
         self.manuel = Cip("MANUEL GEÇİŞ")
         self.sinir = Cip("SINIR")
         self.hss = Cip("HSS")
@@ -80,7 +79,7 @@ class DurumSeridi(QWidget):
         duzen = QHBoxLayout(self)
         duzen.setContentsMargins(0, 0, 0, 4)
         duzen.setSpacing(6)
-        for cip in (self.mod, self.arm, self.otonomi, self.manuel, self.sinir, self.hss, self.fcu, self.sunucu, self.sure):
+        for cip in (self.mod, self.arm, self.manuel, self.sinir, self.hss, self.fcu, self.sunucu, self.sure):
             duzen.addWidget(cip)
 
     def guncelle(self, durum, ozet) -> None:
@@ -90,8 +89,6 @@ class DurumSeridi(QWidget):
                         (stiller.IYI if iha.otonom else stiller.UYARI) if taze else stiller.HATA)
         self.arm.ayarla("ARMED" if iha.armed else "DISARMED",
                         stiller.HATA if iha.armed else stiller.IYI)
-        oto_renk = stiller.IYI if ozet.otonomi_yeterli else stiller.HATA
-        self.otonomi.ayarla(f"%{ozet.otonomi_yuzde:.1f}", oto_renk if ozet.musabaka_aktif else stiller.YAZI_SOLUK)
         m_renk = stiller.IYI if ozet.manuel_gecis <= ozet.manuel_limit else stiller.HATA
         self.manuel.ayarla(f"{ozet.manuel_gecis}/{ozet.manuel_limit}", m_renk)
         if ozet.sinir_icinde:

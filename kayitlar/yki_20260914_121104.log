@@ -1,0 +1,4 @@
+[12:11:04] BILGI: MAVLink dinleniyor: udpin:0.0.0.0:14550
+[12:11:04] BILGI: Görev alıcısı dinliyor: UDP 42000 (kilitlenme/QR)
+[12:11:04] BILGI: YKİ başladı — kaynak: otomatik, config: /home/efsanur/Desktop/iha_yki/config.yaml
+[12:11:04] BILGI: Yarışma günü: güvenlik duvarını kapatmayı unutmayın (sudo ufw disable)
