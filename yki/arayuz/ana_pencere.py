@@ -50,7 +50,7 @@ class AnaPencere(QMainWindow):
         self._onceki_armed = False
         self._son_bip = 0.0
 
-        self.setWindowTitle("Savaşan İHA YKİ — TEKNOFEST 2026")
+        self.setWindowTitle("Savaşan İHA YKİ")
         self.resize(1500, 900)
         self._arac_cubugu()
         self._yerlesim()
