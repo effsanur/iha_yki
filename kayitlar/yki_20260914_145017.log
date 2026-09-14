@@ -1,0 +1,6 @@
+[14:50:17] BILGI: MAVLink dinleniyor: udpin:0.0.0.0:14550
+[14:50:17] BILGI: YKİ başladı — kaynak: otomatik, config: /home/efsanur/Desktop/iha_yki/config.yaml
+[14:50:17] BILGI: Yarışma günü: güvenlik duvarını kapatmayı unutmayın (sudo ufw disable)
+[14:50:17] BILGI: Görev alıcısı dinliyor: UDP 42000 (kilitlenme/QR)
+[14:51:37] HATA: Sunucuya ulaşılamıyor (1. deneme): /api/hss_koordinatlari: ConnectionError
+[14:51:37] HATA: HSS sorgusu başarısız: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /api/hss_koordinatlari (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7d76dd086860>: Failed to establish a new connection: [Errno 111] Connection refused'))

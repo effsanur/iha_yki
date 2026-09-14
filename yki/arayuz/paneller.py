@@ -298,9 +298,7 @@ class EylemlerPanel(QWidget):
         izgara.addWidget(hiz_dugme, 1, 2)
         duzen.addLayout(izgara)
 
-        bilgi = QLabel("Haritada SAĞ TIK → 'Buraya Uç (GUIDED)'.\n"
-                       "YKİ'den komut göndermek otonomiyi bozmaz (şartname 6.1.7);\n"
-                       "kumandayla uçurmak manuel sayılır.")
+        bilgi = QLabel()
         bilgi.setProperty("rol", "soluk")
         bilgi.setWordWrap(True)
         duzen.addWidget(bilgi)

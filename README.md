@@ -1,6 +1,6 @@
-# Savaşan İHA Yer Kontrol İstasyonu (YKİ) — TEKNOFEST 2026
+# Savaşan İHA Yer Kontrol İstasyonu (YKİ) — TEKNOFEST
 
-2026 Savaşan İHA Yarışma Şartnamesi ve Haberleşme Dokümanı isterlerine göre
+Savaşan İHA Yarışma Şartnamesi ve Haberleşme Dokümanı isterlerine göre
 geliştirilmiş yer kontrol istasyonu. **Ubuntu 22.04 + ROS 2 Humble + MAVROS**
 üzerinde, **Pixhawk + Jetson/Raspberry Pi** mimarisi için tasarlandı.
 
