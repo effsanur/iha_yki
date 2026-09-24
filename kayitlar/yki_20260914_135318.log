@@ -1,0 +1,73 @@
+[13:53:18] BILGI: MAVLink dinleniyor: udpin:0.0.0.0:14550
+[13:53:18] BILGI: YKİ başladı — kaynak: otomatik, config: /home/efsanur/Desktop/iha_yki/config.yaml
+[13:53:18] BILGI: Yarışma günü: güvenlik duvarını kapatmayı unutmayın (sudo ufw disable)
+[13:53:18] BILGI: Görev alıcısı dinliyor: UDP 42000 (kilitlenme/QR)
+[13:54:23] BASARI: MAVLink akışı alındı (sistem 1)
+[13:54:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:26] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:54:30] BASARI: MAVLink akışı alındı (sistem 1)
+[13:54:30] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:30] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:30] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:30] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:30] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:30] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:30] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:30] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:30] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:33] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:54:36] BASARI: MAVLink akışı alındı (sistem 1)
+[13:54:36] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:36] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:36] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:36] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:36] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:36] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:36] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:36] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:36] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:36] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:36] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:36] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:36] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:36] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:36] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:39] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:54:43] BASARI: MAVLink akışı alındı (sistem 1)
+[13:54:43] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:43] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:43] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:43] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:43] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:43] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:43] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:43] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:43] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:43] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:46] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:54:49] BASARI: MAVLink akışı alındı (sistem 1)
+[13:54:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:49] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:49] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:49] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:49] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:49] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:49] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:52] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:54:53] BASARI: MAVLink akışı alındı (sistem 1)
+[13:54:55] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:55] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:55] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:54:55] BILGI: FCU: Ground start
+[13:54:55] HATA: FCU: Skipping INS calibration
+[13:54:55] BILGI: FCU: RCInput: decoding UDP (Pulses)
+[13:54:55] BILGI: FCU: Calibrating barometer
+[13:54:55] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:55] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:55] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:55] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:55] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:54:55] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:54:58] UYARI: MAVLink akışı kesildi (3 sn paket yok)

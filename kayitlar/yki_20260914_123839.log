@@ -1,0 +1,84 @@
+[12:38:39] BILGI: MAVLink dinleniyor: udpin:0.0.0.0:14550
+[12:38:39] BILGI: Görev alıcısı dinliyor: UDP 42000 (kilitlenme/QR)
+[12:38:39] BILGI: YKİ başladı — kaynak: otomatik, config: /home/efsanur/Desktop/iha_yki/config.yaml
+[12:38:39] BILGI: Yarışma günü: güvenlik duvarını kapatmayı unutmayın (sudo ufw disable)
+[12:39:50] BASARI: MAVLink akışı alındı (sistem 1)
+[12:39:50] BILGI: FCU: Barometer 1 calibration complete
+[12:39:50] BILGI: FCU: Barometer 2 calibration complete
+[12:39:50] BILGI: FCU: Airspeed 1 calibration started
+[12:39:50] BILGI: FCU: ArduPilot Ready
+[12:39:50] UYARI: FCU: Throttle failsafe off
+[12:39:50] BILGI: FCU: Field Elevation Set: 584m
+[12:39:50] HATA: SINIR İHLALİ! Uçuş alanının dışına çıkıldı (10 sn'de eleme, -200)
+[12:39:50] HATA: Komut cevabı (id 410): BAŞARISIZ
+[12:39:51] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[12:39:51] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[12:39:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[12:39:54] HATA: Komut cevabı (id 410): BAŞARISIZ
+[12:39:54] BILGI: FCU: GPS 1: probing for u-blox at 230400 baud
+[12:39:54] BILGI: FCU: GPS 1: detected u-blox
+[12:39:55] BILGI: FCU: EKF3 IMU0 initialised
+[12:39:55] BILGI: FCU: EKF3 IMU1 initialised
+[12:39:58] BILGI: FCU: EKF3 IMU0 tilt alignment complete
+[12:39:58] BILGI: FCU: EKF3 IMU1 tilt alignment complete
+[12:39:58] BILGI: FCU: EKF3 IMU0 MAG0 initial yaw alignment complete
+[12:39:58] BILGI: FCU: EKF3 IMU1 MAG0 initial yaw alignment complete
+[12:40:08] BILGI: FCU: EKF3 IMU0 origin set
+[12:40:08] BILGI: FCU: EKF3 IMU1 origin set
+[12:40:08] BILGI: FCU: EKF3 IMU0 is using GPS
+[12:40:08] BILGI: FCU: EKF3 IMU1 is using GPS
+[12:40:15] BILGI: WP1 eklendi: -35.363085, 149.165191 @ 100 m
+[12:40:19] BILGI: WP2 eklendi: -35.362839, 149.165173 @ 100 m
+[12:40:22] BILGI: WP3 eklendi: -35.362621, 149.165144 @ 100 m
+[12:40:24] BILGI: WP4 eklendi: -35.362381, 149.165102 @ 100 m
+[12:40:25] BILGI: WP5 eklendi: -35.362409, 149.164720 @ 100 m
+[12:40:27] BILGI: WP6 eklendi: -35.362559, 149.164343 @ 100 m
+[12:40:38] BILGI: WP7 eklendi: -35.362883, 149.164422 @ 90 m
+[12:40:41] BILGI: WP8 eklendi: -35.363155, 149.164451 @ 90 m
+[12:40:53] BILGI: WP9 eklendi: -35.363452, 149.164668 @ 80 m
+[12:41:00] BILGI: WP10 eklendi: -35.363492, 149.165217 @ 80 m
+[12:41:24] BILGI: Görev yükleme başladı: 10 WP (MISSION_COUNT gönderildi)
+[12:41:24] UYARI: FCU: got MISSION_ITEM; GCS should send MISSION_ITEM_INT
+[12:41:25] BASARI: GÖREV YÜKLENDİ: 10 WP araç tarafından kabul edildi
+[12:41:25] BILGI: FCU: Flight plan received
+[12:41:47] BILGI: ARM komutu gönderildi
+[12:41:47] BASARI: Komut cevabı (id 400): KABUL EDİLDİ
+[12:41:47] BILGI: FCU: Throttle armed
+[12:41:47] BILGI: Ev noktası işaretlendi (ARM): -35.363262, 149.165238
+[12:41:59] BILGI: Görev okuma başladı (MISSION_REQUEST_LIST gönderildi)
+[12:41:59] BASARI: GÖREV OKUNDU: 10 WP araçtan alındı
+[12:42:09] BILGI: Mod komutu gönderildi: AUTO
+[12:42:09] BILGI: FCU: Mission: 1 Takeoff
+[12:42:09] BILGI: FCU: Armed AUTO, xaccel = 0.0 m/s/s, waiting 0.2 sec
+[12:42:09] BILGI: FCU: Triggered AUTO. GPS speed = 0.0
+[12:42:10] BILGI: FCU: Autoland direction= 0
+[12:42:10] BILGI: FCU: Holding course 35987 at 5.1m/s (0.1)
+[12:42:21] BILGI: FCU: Takeoff level-off starting at 13m
+[12:42:23] BILGI: FCU: Takeoff complete at 97.49m
+[12:42:23] BILGI: FCU: Mission: 2 WP
+[12:42:57] HATA: FCU/telemetri bağlantısı KOPTU!
+[12:42:58] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[12:43:18] BASARI: MAVLink akışı alındı (sistem 1)
+[12:43:18] BILGI: FCU: Barometer 1 calibration complete
+[12:43:18] BILGI: FCU: Barometer 2 calibration complete
+[12:43:18] BILGI: FCU: Airspeed 1 calibration started
+[12:43:18] BILGI: FCU: ArduPilot Ready
+[12:43:18] UYARI: FCU: Throttle failsafe off
+[12:43:18] BILGI: FCU: Field Elevation Set: 584m
+[12:43:18] BILGI: FCU: Airspeed 1 calibrated
+[12:43:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[12:43:19] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[12:43:19] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[12:43:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[12:43:22] HATA: Komut cevabı (id 410): BAŞARISIZ
+[12:43:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[12:43:25] BILGI: FCU: GPS 1: probing for u-blox at 230400 baud
+[12:43:25] BILGI: FCU: GPS 1: detected u-blox
+[12:43:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[12:43:26] BILGI: FCU: EKF3 IMU0 initialised
+[12:43:26] BILGI: FCU: EKF3 IMU1 initialised
+[12:43:28] BILGI: Kural sayaçları sıfırlandı
+[12:43:29] BILGI: FCU: EKF3 IMU0 tilt alignment complete
+[12:43:29] BILGI: FCU: EKF3 IMU1 tilt alignment complete
+[12:43:29] BILGI: FCU: EKF3 IMU0 MAG0 initial yaw alignment complete
+[12:43:29] BILGI: FCU: EKF3 IMU1 MAG0 initial yaw alignment complete

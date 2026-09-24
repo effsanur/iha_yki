@@ -1,0 +1,230 @@
+[13:55:33] BILGI: MAVLink dinleniyor: udpin:0.0.0.0:14550
+[13:55:33] BILGI: YKİ başladı — kaynak: otomatik, config: /home/efsanur/Desktop/iha_yki/config.yaml
+[13:55:33] BILGI: Yarışma günü: güvenlik duvarını kapatmayı unutmayın (sudo ufw disable)
+[13:55:33] BILGI: Görev alıcısı dinliyor: UDP 42000 (kilitlenme/QR)
+[13:56:46] BASARI: MAVLink akışı alındı (sistem 1)
+[13:56:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:56:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:56:50] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:56:56] BASARI: MAVLink akışı alındı (sistem 1)
+[13:56:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:56:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:56:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:56:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:56:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:56:56] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:56:56] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:56:56] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:56:56] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:56:56] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:56:56] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:56:56] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:56:56] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:56:56] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:56:56] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:56:56] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:56:56] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:56:56] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:56:56] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:56:59] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:57:06] BASARI: MAVLink akışı alındı (sistem 1)
+[13:57:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:09] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:57:17] BASARI: MAVLink akışı alındı (sistem 1)
+[13:57:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:17] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:17] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:17] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:17] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:17] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:17] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:17] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:17] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:17] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:17] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:17] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:17] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:20] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:57:28] BASARI: MAVLink akışı alındı (sistem 1)
+[13:57:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:28] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:28] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:28] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:28] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:28] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:28] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:28] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:28] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:28] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:28] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:31] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:57:34] BASARI: MAVLink akışı alındı (sistem 1)
+[13:57:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:35] BILGI: FCU: Ground start
+[13:57:35] HATA: FCU: Skipping INS calibration
+[13:57:35] BILGI: FCU: Calibrating barometer
+[13:57:35] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:35] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:35] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:35] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:35] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:35] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:35] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:35] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:38] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:57:42] BASARI: MAVLink akışı alındı (sistem 1)
+[13:57:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:42] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:42] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:42] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:42] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:42] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:42] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:47] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:57:49] BASARI: MAVLink akışı alındı (sistem 1)
+[13:57:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:49] BILGI: FCU: RCInput: decoding UDP (Pulses)
+[13:57:49] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:49] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:49] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:49] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:49] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:49] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:49] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:49] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:54] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:57:56] BASARI: MAVLink akışı alındı (sistem 1)
+[13:57:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:57:56] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:56] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:56] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:56] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:57:56] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:57:56] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:01] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:58:06] BASARI: MAVLink akışı alındı (sistem 1)
+[13:58:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:09] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:58:09] BASARI: MAVLink akışı alındı (sistem 1)
+[13:58:12] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:58:18] BASARI: MAVLink akışı alındı (sistem 1)
+[13:58:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:18] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:18] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:18] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:18] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:18] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:18] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:18] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:18] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:18] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:18] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:18] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:18] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:23] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:58:29] BASARI: MAVLink akışı alındı (sistem 1)
+[13:58:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:29] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:29] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:29] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:29] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:29] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:29] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:29] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:29] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:29] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:29] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:34] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:58:40] BASARI: MAVLink akışı alındı (sistem 1)
+[13:58:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:40] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:40] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:40] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:40] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:40] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:40] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:40] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:40] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:40] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:40] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:40] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:40] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:46] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[13:58:51] BASARI: MAVLink akışı alındı (sistem 1)
+[13:58:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[13:58:51] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:51] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:51] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:51] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:51] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:51] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:51] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:51] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:51] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[13:58:51] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[13:58:54] UYARI: MAVLink akışı kesildi (3 sn paket yok)

@@ -21,8 +21,9 @@ from . import stiller
 from .harita import HaritaWidget
 from .hud import HudWidget
 from .paneller import (
-    DurumSeridi, EylemlerPanel, GorevPaneli, GorevPlaniSeridi, HizliPanel,
-    HssPaneli, LogPaneli, SunucuPaneli, TelemetriPaneli, VideoPaneli,
+    DurumSeridi, EylemlerPanel, GorevPlaniSeridi, HizliPanel, HssPaneli,
+    KamikazePaneli, KilitPaneli, LogPaneli, SunucuPaneli, TelemetriPaneli,
+    VideoPaneli,
 )
 
 
@@ -155,14 +156,17 @@ class AnaPencere(QMainWindow):
         self.sag_panel = QWidget()
         sag_duzen = QVBoxLayout(self.sag_panel)
         sag_duzen.setContentsMargins(0, 0, 0, 0)
-        self.gorev_paneli = GorevPaneli(self.uyg)
+        self.kilit_paneli = KilitPaneli(self.uyg)
+        self.kamikaze_paneli = KamikazePaneli(self.uyg)
         self.hss_paneli = HssPaneli(self.uyg)
         self.video_paneli = VideoPaneli(self.uyg)
-        sag_duzen.addWidget(self.video_paneli, 2)
+        self.video_paneli.setFixedHeight(340)
+        sag_duzen.addWidget(self.video_paneli)
 
         self.sekmeler = QTabWidget()
         self.sekmeler.setTabPosition(QTabWidget.North)
-        self.sekmeler.addTab(self.gorev_paneli, "GÖREV")
+        self.sekmeler.addTab(self.kilit_paneli, "KİLİTLENME")
+        self.sekmeler.addTab(self.kamikaze_paneli, "KAMİKAZE")
         self.sekmeler.addTab(self.hss_paneli, "HSS")
         sag_duzen.addWidget(self.sekmeler, 1)
         bolucu.addWidget(self.sag_panel)
@@ -250,11 +254,11 @@ class AnaPencere(QMainWindow):
         kilit_aktif = anlik.kilit.aktif and anlik.kilit.taze(0.6)
         sonuc = self.kilit_takip.guncelle(kilit_aktif, self.uyg.saat.simdi_ms())
         if sonuc is not None and sonuc[0] == "tamam":
-            self.gorev_paneli.kilit_tamamlandi(sonuc[1])
+            self.kilit_paneli.kilit_tamamlandi(sonuc[1])
 
         # görüntü işlemeden gelen QR olayları
         while self.qr_kuyruk:
-            self.gorev_paneli.qr_geldi(self.qr_kuyruk.popleft())
+            self.kamikaze_paneli.qr_geldi(self.qr_kuyruk.popleft())
 
         # ev (kalkış) noktası: ARM anında otomatik yakala (MP davranışı)
         if anlik.iha.armed and not self._onceki_armed and (anlik.iha.enlem or anlik.iha.boylam):
@@ -269,7 +273,8 @@ class AnaPencere(QMainWindow):
         self.hizli_panel.guncelle(anlik, ozet)
         self.telemetri_paneli.guncelle(anlik)
         self.sunucu_paneli.guncelle(anlik, self.uyg.saat)
-        self.gorev_paneli.guncelle(anlik, self.kilit_takip)
+        self.kilit_paneli.guncelle(anlik, self.kilit_takip)
+        self.kamikaze_paneli.guncelle(anlik, self.kilit_takip)
         self.hss_paneli.guncelle(anlik, ozet)
         self.gorev_seridi.guncelle(anlik)
 

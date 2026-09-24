@@ -182,26 +182,29 @@ class HizliPanel(QWidget):
         ("eve_mesafe", "Eve Mesafe (m)"),
         ("qr_mesafe", "QR'a Mesafe (m)"),
         ("batarya", "Batarya (%)"),
-        ("otonomi", "Otonomi (%)"),
+        ("dikilme", "Pitch (°)"),
+        ("yaw", "Yaw (°)"),
+        ("roll", "Roll (°)"),
     ]
 
     def __init__(self):
         super().__init__()
         self.setStyleSheet("background:#05070a;")
         izgara = QGridLayout(self)
-        izgara.setContentsMargins(4, 4, 4, 4)
-        izgara.setSpacing(4)
+        izgara.setContentsMargins(2, 2, 2, 2)
+        izgara.setSpacing(3)
         self.degerler = {}
         for i, (anahtar, baslik) in enumerate(self.ALANLAR):
             hucre = QFrame()
             hucre.setStyleSheet(f"QFrame {{ background:#0b0f14; border:1px solid {stiller.KENAR}; border-radius:4px; }}")
+            hucre.setMinimumHeight(100)
             duzen = QVBoxLayout(hucre)
-            duzen.setContentsMargins(6, 3, 6, 3)
+            duzen.setContentsMargins(6, 2, 6, 2)
             duzen.setSpacing(0)
             b = QLabel(baslik)
-            b.setStyleSheet(f"color:{stiller.YAZI_SOLUK}; font-size:11px; border:none;")
+            b.setStyleSheet(f"color:{stiller.YAZI_SOLUK}; font-size:10px; border:none;")
             d = QLabel("--")
-            d.setStyleSheet("color:white; font-family:Consolas; font-size:26px; font-weight:bold; border:none;")
+            d.setStyleSheet("color:white; font-family:Consolas; font-size:22px; font-weight:bold; border:none;")
             d.setAlignment(Qt.AlignRight | Qt.AlignVCenter)
             cizgi = QFrame()
             cizgi.setFixedHeight(2)
@@ -225,7 +228,9 @@ class HizliPanel(QWidget):
         else:
             self.degerler["qr_mesafe"].setText("--")
         self.degerler["batarya"].setText(f"{iha.batarya:.0f}")
-        self.degerler["otonomi"].setText(f"{ozet.otonomi_yuzde:.1f}" if ozet.musabaka_aktif else "--")
+        self.degerler["dikilme"].setText(f"{iha.dikilme:+.1f}")
+        self.degerler["yaw"].setText(f"{iha.yonelme:+.1f}")
+        self.degerler["roll"].setText(f"{iha.yatis:+.1f}")
 
 
 class EylemlerPanel(QWidget):
@@ -530,13 +535,12 @@ class SunucuPaneli(QWidget):
         self.kamikaze_sayac.setText(str(s.kamikaze_paket_sayisi))
 
 
-class GorevPaneli(QWidget):
-    """Kilitlenme ve Kamikaze görev paketleri."""
+class KilitPaneli(QWidget):
+    """Kilitlenme görev paketi paneli."""
 
     def __init__(self, uyg):
         super().__init__()
         self.uyg = uyg
-        self.dalis_baslangic_ms: int | None = None
         duzen = QVBoxLayout(self)
 
         kkutu = QGroupBox("KİLİTLENME (Savaşan İHA görevi)")
@@ -562,6 +566,52 @@ class GorevPaneli(QWidget):
         self.kilit_gonder_dugme.clicked.connect(self._kilit_gonder_elle)
         kduzen.addWidget(self.kilit_gonder_dugme)
         duzen.addWidget(kkutu)
+        duzen.addStretch(1)
+
+    def otonom_bayragi(self) -> bool:
+        secim = self.otonom_secim.currentIndex()
+        if secim == 1:
+            return True
+        if secim == 2:
+            return False
+        return bool(self.uyg.durum.anlik().iha.otonom)
+
+    def _kilit_gonder_elle(self) -> None:
+        self.uyg.istemci.kilitlenme_gonder(self.uyg.saat.simdi_ms(), self.otonom_bayragi())
+
+    def kilit_tamamlandi(self, bitis_ms: int) -> None:
+        """KilitTakip 4 sn dolduran oturum bitince çağırır (otomatik kip)."""
+        if self.oto_kilit_kutu.isChecked():
+            self.uyg.istemci.kilitlenme_gonder(bitis_ms, self.otonom_bayragi())
+        else:
+            self.uyg.durum.olay("UYARI", "Kilit oturumu 4 sn'yi doldurdu — paket göndermek için düğmeye basın")
+
+    def guncelle(self, durum, kilit_takip) -> None:
+        kilit = durum.kilit
+        esik = max(0.1, kilit_takip.esik_sn)
+        sure = kilit_takip.anlik_sure
+        self.kilit_cubuk.setValue(int(min(1.0, sure / esik) * 1000))
+        if kilit.aktif and kilit.taze(1.0):
+            self.kilit_cubuk.setFormat(f"KİLİT: {sure:.1f} / {esik:.1f} sn")
+            renk = stiller.IYI if sure >= esik else stiller.UYARI
+            self.kilit_cubuk.setStyleSheet(f"QProgressBar::chunk {{ background: {renk}; }}")
+            self.hedef_etiket.setText(
+                f"Hedef kutusu: X={kilit.merkez_x} Y={kilit.merkez_y} "
+                f"G={kilit.genislik} Y={kilit.yukseklik} ({kilit.video_genislik}x{kilit.video_yukseklik})")
+        else:
+            self.kilit_cubuk.setFormat("kilit yok")
+            self.kilit_cubuk.setStyleSheet("")
+            self.hedef_etiket.setText("Hedef kutusu: --")
+
+
+class KamikazePaneli(QWidget):
+    """Kamikaze görev paketi paneli."""
+
+    def __init__(self, uyg):
+        super().__init__()
+        self.uyg = uyg
+        self.dalis_baslangic_ms: int | None = None
+        duzen = QVBoxLayout(self)
 
         akutu = QGroupBox("KAMİKAZE (QR görevi)")
         aduzen = QVBoxLayout(akutu)
@@ -594,26 +644,6 @@ class GorevPaneli(QWidget):
         duzen.addWidget(akutu)
         duzen.addStretch(1)
 
-    # --- kilit ---
-    def otonom_bayragi(self) -> bool:
-        secim = self.otonom_secim.currentIndex()
-        if secim == 1:
-            return True
-        if secim == 2:
-            return False
-        return bool(self.uyg.durum.anlik().iha.otonom)
-
-    def _kilit_gonder_elle(self) -> None:
-        self.uyg.istemci.kilitlenme_gonder(self.uyg.saat.simdi_ms(), self.otonom_bayragi())
-
-    def kilit_tamamlandi(self, bitis_ms: int) -> None:
-        """KilitTakip 4 sn dolduran oturum bitince çağırır (otomatik kip)."""
-        if self.oto_kilit_kutu.isChecked():
-            self.uyg.istemci.kilitlenme_gonder(bitis_ms, self.otonom_bayragi())
-        else:
-            self.uyg.durum.olay("UYARI", "Kilit oturumu 4 sn'yi doldurdu — paket göndermek için düğmeye basın")
-
-    # --- kamikaze ---
     def _dalis_basla(self) -> None:
         self.dalis_baslangic_ms = self.uyg.saat.simdi_ms()
         d = saat_dict_ms(self.dalis_baslangic_ms)
@@ -639,22 +669,7 @@ class GorevPaneli(QWidget):
         self.dalis_baslangic_ms = None
         self.qr_metin_girdi.clear()
 
-    def guncelle(self, durum, kilit_takip) -> None:
-        kilit = durum.kilit
-        esik = max(0.1, kilit_takip.esik_sn)
-        sure = kilit_takip.anlik_sure
-        self.kilit_cubuk.setValue(int(min(1.0, sure / esik) * 1000))
-        if kilit.aktif and kilit.taze(1.0):
-            self.kilit_cubuk.setFormat(f"KİLİT: {sure:.1f} / {esik:.1f} sn")
-            renk = stiller.IYI if sure >= esik else stiller.UYARI
-            self.kilit_cubuk.setStyleSheet(f"QProgressBar::chunk {{ background: {renk}; }}")
-            self.hedef_etiket.setText(
-                f"Hedef kutusu: X={kilit.merkez_x} Y={kilit.merkez_y} "
-                f"G={kilit.genislik} Y={kilit.yukseklik} ({kilit.video_genislik}x{kilit.video_yukseklik})")
-        else:
-            self.kilit_cubuk.setFormat("kilit yok")
-            self.kilit_cubuk.setStyleSheet("")
-            self.hedef_etiket.setText("Hedef kutusu: --")
+    def guncelle(self, durum, _kilit_takip) -> None:
         if self.dalis_baslangic_ms is not None:
             d = saat_dict_ms(self.dalis_baslangic_ms)
             self.dalis_etiket.setText(f"Dalış başlangıcı: {d['saat']:02d}:{d['dakika']:02d}:{d['saniye']:02d}.{d['milisaniye']:03d} — QR bekleniyor")

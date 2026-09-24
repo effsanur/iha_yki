@@ -1,0 +1,113 @@
+[15:23:16] BILGI: MAVLink dinleniyor: udpin:0.0.0.0:14550
+[15:23:16] BILGI: YKİ başladı — kaynak: otomatik, config: /home/efsanur/Desktop/iha_yki/config.yaml
+[15:23:16] BILGI: Yarışma günü: güvenlik duvarını kapatmayı unutmayın (sudo ufw disable)
+[15:23:16] BILGI: Görev alıcısı dinliyor: UDP 42000 (kilitlenme/QR)
+[15:23:40] BASARI: MAVLink akışı alındı (sistem 1)
+[15:23:40] BILGI: FCU: Barometer 1 calibration complete
+[15:23:40] BILGI: FCU: Barometer 2 calibration complete
+[15:23:40] BILGI: FCU: Airspeed 1 calibration started
+[15:23:40] BILGI: FCU: ArduPilot Ready
+[15:23:40] UYARI: FCU: Throttle failsafe off
+[15:23:40] BILGI: FCU: Field Elevation Set: 584m
+[15:23:40] HATA: FCU: PreArm: Accels inconsistent
+[15:23:40] HATA: FCU: PreArm: AHRS: waiting for home
+[15:23:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[15:23:40] HATA: SINIR İHLALİ! Uçuş alanının dışına çıkıldı (10 sn'de eleme, -200)
+[15:23:41] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[15:23:41] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[15:23:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[15:23:44] HATA: Komut cevabı (id 410): BAŞARISIZ
+[15:23:45] BILGI: FCU: GPS 1: probing for u-blox at 230400 baud
+[15:23:45] BILGI: FCU: GPS 1: detected u-blox
+[15:23:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[15:23:47] BILGI: FCU: EKF3 IMU0 initialised
+[15:23:47] BILGI: FCU: EKF3 IMU1 initialised
+[15:23:49] BILGI: FCU: EKF3 IMU0 tilt alignment complete
+[15:23:49] BILGI: FCU: EKF3 IMU1 tilt alignment complete
+[15:23:49] BILGI: FCU: EKF3 IMU0 MAG0 initial yaw alignment complete
+[15:23:49] BILGI: FCU: EKF3 IMU1 MAG0 initial yaw alignment complete
+[15:23:58] BILGI: FCU: EKF3 IMU0 origin set
+[15:23:58] BILGI: FCU: EKF3 IMU1 origin set
+[15:23:58] BILGI: FCU: EKF3 IMU0 is using GPS
+[15:23:58] BILGI: FCU: EKF3 IMU1 is using GPS
+[15:24:34] BILGI: ARM komutu gönderildi
+[15:24:34] BASARI: Komut cevabı (id 400): KABUL EDİLDİ
+[15:24:34] BILGI: FCU: Throttle armed
+[15:24:35] BILGI: Ev noktası işaretlendi (ARM): -35.363262, 149.165238
+[15:24:42] BILGI: Mod komutu gönderildi: AUTO
+[15:24:42] BILGI: FCU: Mission: 1 Takeoff
+[15:24:42] BILGI: FCU: Armed AUTO, xaccel = 0.0 m/s/s, waiting 0.2 sec
+[15:24:42] BILGI: FCU: Triggered AUTO. GPS speed = 0.0
+[15:24:43] BILGI: FCU: Autoland direction= 0
+[15:24:43] BILGI: FCU: Holding course 35991 at 5.1m/s (0.1)
+[15:24:53] BILGI: FCU: Takeoff level-off starting at 13m
+[15:24:55] BILGI: FCU: Takeoff complete at 97.51m
+[15:24:55] BILGI: FCU: Mission: 2 WP
+[15:25:05] BILGI: WP1 eklendi: -35.360994, 149.161486 @ 100 m
+[15:25:07] BILGI: WP2 eklendi: -35.362511, 149.161130 @ 100 m
+[15:25:08] BILGI: Görev yükleme başladı: 2 WP (MISSION_COUNT gönderildi)
+[15:25:08] UYARI: FCU: got MISSION_ITEM; GCS should send MISSION_ITEM_INT
+[15:25:08] BASARI: GÖREV YÜKLENDİ: 2 WP araç tarafından kabul edildi
+[15:25:08] BILGI: FCU: Flight plan received
+[15:25:11] BILGI: Mod komutu gönderildi: AUTO
+[15:25:14] BILGI: FCU: Reached waypoint #2 dist 42m
+[15:25:14] BILGI: FCU: Mission complete, changing mode to RTL
+[15:25:51] UYARI: FCU: Unable to start landing sequence
+[15:26:04] BILGI: Görev yükleme başladı: 2 WP (MISSION_COUNT gönderildi)
+[15:26:04] UYARI: FCU: got MISSION_ITEM; GCS should send MISSION_ITEM_INT
+[15:26:04] BASARI: GÖREV YÜKLENDİ: 2 WP araç tarafından kabul edildi
+[15:26:04] BILGI: FCU: Flight plan received
+[15:26:10] BILGI: Görev okuma başladı (MISSION_REQUEST_LIST gönderildi)
+[15:26:10] BASARI: GÖREV OKUNDU: 2 WP araçtan alındı
+[15:26:19] BILGI: Mod komutu gönderildi: AUTO
+[15:26:19] BILGI: FCU: Mission: 1 Takeoff
+[15:26:19] BILGI: FCU: Holding course 29199 at 13.3m/s (0.8)
+[15:26:19] BILGI: FCU: Takeoff complete at 100.16m
+[15:26:19] BILGI: FCU: Mission: 2 WP
+[15:26:34] BILGI: Görev okuma başladı (MISSION_REQUEST_LIST gönderildi)
+[15:26:34] BASARI: GÖREV OKUNDU: 2 WP araçtan alındı
+[15:26:41] BILGI: WP3 eklendi: -35.359227, 149.162856 @ 100 m
+[15:26:43] BILGI: WP4 eklendi: -35.357501, 149.167924 @ 100 m
+[15:26:45] BILGI: WP5 eklendi: -35.359091, 149.168266 @ 100 m
+[15:26:45] BILGI: FCU: Reached waypoint #2 dist 50m
+[15:26:45] BILGI: FCU: Mission complete, changing mode to RTL
+[15:26:46] BILGI: Görev yükleme başladı: 5 WP (MISSION_COUNT gönderildi)
+[15:26:46] UYARI: FCU: got MISSION_ITEM; GCS should send MISSION_ITEM_INT
+[15:26:46] BASARI: GÖREV YÜKLENDİ: 5 WP araç tarafından kabul edildi
+[15:26:46] BILGI: FCU: Flight plan received
+[15:26:47] BILGI: Mod komutu gönderildi: AUTO
+[15:26:47] BILGI: FCU: Mission: 1 Takeoff
+[15:26:47] BILGI: FCU: Holding course 33157 at 14.1m/s (3.9)
+[15:26:47] BILGI: FCU: Takeoff complete at 100.65m
+[15:26:47] BILGI: FCU: Mission: 2 WP
+[15:26:47] BILGI: FCU: Reached waypoint #2 dist 28m
+[15:26:47] BILGI: FCU: Mission: 3 WP
+[15:26:49] BILGI: Görev okuma başladı (MISSION_REQUEST_LIST gönderildi)
+[15:26:50] BASARI: GÖREV OKUNDU: 5 WP araçtan alındı
+[15:27:16] BILGI: FCU: Reached waypoint #3 dist 24m
+[15:27:16] BILGI: FCU: Mission: 4 WP
+[15:27:24] BILGI: WP6 eklendi: -35.360530, 149.168490 @ 80 m
+[15:27:33] BILGI: WP7 eklendi: -35.362517, 149.168709 @ 60 m
+[15:27:36] BILGI: Görev yükleme başladı: 7 WP (MISSION_COUNT gönderildi)
+[15:27:36] UYARI: FCU: got MISSION_ITEM; GCS should send MISSION_ITEM_INT
+[15:27:36] BASARI: GÖREV YÜKLENDİ: 7 WP araç tarafından kabul edildi
+[15:27:36] BILGI: FCU: Flight plan received
+[15:27:37] BILGI: Mod komutu gönderildi: AUTO
+[15:27:39] BILGI: Görev okuma başladı (MISSION_REQUEST_LIST gönderildi)
+[15:27:39] BASARI: GÖREV OKUNDU: 7 WP araçtan alındı
+[15:27:54] BILGI: FCU: Reached waypoint #4 dist 51m
+[15:27:54] BILGI: FCU: Mission: 5 WP
+[15:27:56] BILGI: WP8 eklendi: -35.363642, 149.168606 @ 50 m
+[15:28:09] BILGI: FCU: Reached waypoint #5 dist 1m
+[15:28:09] BILGI: FCU: Mission: 6 WP
+[15:28:12] BILGI: WP9 eklendi: -35.364929, 149.168236 @ 40 m
+[15:28:17] BILGI: Görev yükleme başladı: 9 WP (MISSION_COUNT gönderildi)
+[15:28:17] UYARI: FCU: got MISSION_ITEM; GCS should send MISSION_ITEM_INT
+[15:28:17] BASARI: GÖREV YÜKLENDİ: 9 WP araç tarafından kabul edildi
+[15:28:17] BILGI: FCU: Flight plan received
+[15:28:18] BILGI: Mod komutu gönderildi: AUTO
+[15:28:19] BILGI: Görev okuma başladı (MISSION_REQUEST_LIST gönderildi)
+[15:28:20] BASARI: GÖREV OKUNDU: 9 WP araçtan alındı
+[15:28:22] BILGI: FCU: Reached waypoint #6 dist 0m
+[15:28:22] BILGI: FCU: Mission: 7 WP
+[15:28:38] BILGI: Kural sayaçları sıfırlandı

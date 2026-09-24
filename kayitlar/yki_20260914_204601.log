@@ -1,0 +1,93 @@
+[20:46:01] BILGI: MAVLink dinleniyor: udpin:0.0.0.0:14550
+[20:46:01] BILGI: YKİ başladı — kaynak: otomatik, config: /home/efsanur/Desktop/iha_yki/config.yaml
+[20:46:01] BILGI: Yarışma günü: güvenlik duvarını kapatmayı unutmayın (sudo ufw disable)
+[20:46:01] BILGI: Görev alıcısı dinliyor: UDP 42000 (kilitlenme/QR)
+[20:46:23] BASARI: MAVLink akışı alındı (sistem 1)
+[20:46:23] BILGI: FCU: Barometer 1 calibration complete
+[20:46:23] BILGI: FCU: Barometer 2 calibration complete
+[20:46:23] BILGI: FCU: Airspeed 1 calibration started
+[20:46:23] BILGI: FCU: ArduPilot Ready
+[20:46:23] UYARI: FCU: Throttle failsafe off
+[20:46:23] BILGI: FCU: Field Elevation Set: 584m
+[20:46:23] BILGI: FCU: Airspeed 1 calibrated
+[20:46:23] HATA: SINIR İHLALİ! Uçuş alanının dışına çıkıldı (10 sn'de eleme, -200)
+[20:46:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[20:46:24] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[20:46:24] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[20:46:25] HATA: Komut cevabı (id 410): BAŞARISIZ
+[20:46:25] HATA: FCU: PreArm: Accels inconsistent
+[20:46:25] HATA: FCU: PreArm: AHRS: waiting for home
+[20:46:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[20:46:28] BILGI: FCU: GPS 1: probing for u-blox at 230400 baud
+[20:46:28] BILGI: FCU: GPS 1: detected u-blox
+[20:46:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[20:46:30] BILGI: FCU: EKF3 IMU0 initialised
+[20:46:30] BILGI: FCU: EKF3 IMU1 initialised
+[20:46:32] BILGI: FCU: EKF3 IMU0 tilt alignment complete
+[20:46:32] BILGI: FCU: EKF3 IMU1 tilt alignment complete
+[20:46:32] BILGI: FCU: EKF3 IMU0 MAG0 initial yaw alignment complete
+[20:46:32] BILGI: FCU: EKF3 IMU1 MAG0 initial yaw alignment complete
+[20:46:42] BILGI: FCU: EKF3 IMU0 origin set
+[20:46:42] BILGI: FCU: EKF3 IMU1 origin set
+[20:46:42] BILGI: FCU: EKF3 IMU0 is using GPS
+[20:46:42] BILGI: FCU: EKF3 IMU1 is using GPS
+[20:47:00] BILGI: WP1 eklendi: -35.361990, 149.165094 @ 100 m
+[20:47:01] BILGI: WP2 eklendi: -35.360341, 149.164340 @ 100 m
+[20:47:02] BILGI: WP3 eklendi: -35.360395, 149.162482 @ 100 m
+[20:47:05] BILGI: WP4 eklendi: -35.361197, 149.160682 @ 100 m
+[20:47:06] BILGI: WP5 eklendi: -35.362562, 149.159905 @ 100 m
+[20:47:08] BILGI: WP6 eklendi: -35.364077, 149.160102 @ 100 m
+[20:47:09] BILGI: WP7 eklendi: -35.364733, 149.162447 @ 100 m
+[20:47:10] BILGI: WP8 eklendi: -35.364494, 149.164699 @ 100 m
+[20:47:12] BILGI: WP9 eklendi: -35.362128, 149.167183 @ 100 m
+[20:47:13] BILGI: WP10 eklendi: -35.360931, 149.167276 @ 100 m
+[20:47:15] BILGI: Görev yükleme başladı: 10 WP (MISSION_COUNT gönderildi)
+[20:47:15] UYARI: FCU: got MISSION_ITEM; GCS should send MISSION_ITEM_INT
+[20:47:15] BASARI: GÖREV YÜKLENDİ: 10 WP araç tarafından kabul edildi
+[20:47:15] BILGI: FCU: Flight plan received
+[20:47:17] BILGI: Mod komutu gönderildi: AUTO
+[20:47:17] BILGI: FCU: Mission: 1 Takeoff
+[20:47:25] BILGI: ARM komutu gönderildi
+[20:47:25] BASARI: Komut cevabı (id 400): KABUL EDİLDİ
+[20:47:25] BILGI: FCU: Throttle armed
+[20:47:25] BILGI: FCU: Armed AUTO, xaccel = -0.0 m/s/s, waiting 0.2 sec
+[20:47:25] BILGI: Ev noktası işaretlendi (ARM): -35.363262, 149.165238
+[20:47:25] BILGI: FCU: Triggered AUTO. GPS speed = 0.0
+[20:47:26] BILGI: FCU: Autoland direction= 359
+[20:47:26] BILGI: FCU: Holding course 35991 at 9.5m/s (0.1)
+[20:47:36] BILGI: FCU: Takeoff level-off starting at 13m
+[20:47:38] BILGI: FCU: Takeoff complete at 97.54m
+[20:47:38] BILGI: FCU: Mission: 2 WP
+[20:47:44] BILGI: FCU: Reached waypoint #2 dist 28m
+[20:47:44] BILGI: FCU: Mission: 3 WP
+[20:47:48] BILGI: Görev okuma başladı (MISSION_REQUEST_LIST gönderildi)
+[20:47:49] BASARI: GÖREV OKUNDU: 10 WP araçtan alındı
+[20:47:59] BILGI: FCU: Reached waypoint #3 dist 14m
+[20:47:59] BILGI: FCU: Mission: 4 WP
+[20:48:14] BILGI: FCU: Reached waypoint #4 dist 19m
+[20:48:14] BILGI: FCU: Mission: 5 WP
+[20:48:27] BILGI: FCU: Reached waypoint #5 dist 16m
+[20:48:27] BILGI: FCU: Mission: 6 WP
+[20:48:39] BILGI: FCU: Reached waypoint #6 dist 37m
+[20:48:39] BILGI: FCU: Mission: 7 WP
+[20:48:59] BILGI: FCU: Reached waypoint #7 dist 14m
+[20:48:59] BILGI: FCU: Mission: 8 WP
+[20:49:11] BILGI: WP11 eklendi: -35.359938, 149.163770 @ 50 m
+[20:49:15] BILGI: FCU: Reached waypoint #8 dist 22m
+[20:49:15] BILGI: FCU: Mission: 9 WP
+[20:49:16] BILGI: WP12 eklendi: -35.360000, 149.161925 @ 50 m
+[20:49:19] BILGI: Görev yükleme başladı: 12 WP (MISSION_COUNT gönderildi)
+[20:49:19] UYARI: FCU: got MISSION_ITEM; GCS should send MISSION_ITEM_INT
+[20:49:20] BASARI: GÖREV YÜKLENDİ: 12 WP araç tarafından kabul edildi
+[20:49:20] BILGI: FCU: Flight plan received
+[20:49:20] BILGI: Mod komutu gönderildi: AUTO
+[20:49:21] BILGI: Görev okuma başladı (MISSION_REQUEST_LIST gönderildi)
+[20:49:22] BASARI: GÖREV OKUNDU: 12 WP araçtan alındı
+[20:49:43] BILGI: FCU: Reached waypoint #9 dist 21m
+[20:49:43] BILGI: FCU: Mission: 10 WP
+[20:49:52] BILGI: FCU: Reached waypoint #10 dist 41m
+[20:49:52] BILGI: FCU: Mission: 11 WP
+[20:50:26] BILGI: DISARM komutu gönderildi
+[20:50:26] HATA: Komut cevabı (id 400): BAŞARISIZ
+[20:50:39] HATA: FCU/telemetri bağlantısı KOPTU!
+[20:50:40] UYARI: MAVLink akışı kesildi (3 sn paket yok)

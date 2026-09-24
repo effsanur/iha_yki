@@ -1,0 +1,1223 @@
+[14:03:15] BILGI: MAVLink dinleniyor: udpin:0.0.0.0:14550
+[14:03:15] BILGI: YKİ başladı — kaynak: otomatik, config: /home/efsanur/Desktop/iha_yki/config.yaml
+[14:03:15] BILGI: Yarışma günü: güvenlik duvarını kapatmayı unutmayın (sudo ufw disable)
+[14:03:15] BILGI: Görev alıcısı dinliyor: UDP 42000 (kilitlenme/QR)
+[14:04:10] BASARI: MAVLink akışı alındı (sistem 1)
+[14:04:10] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:13] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:04:16] BASARI: MAVLink akışı alındı (sistem 1)
+[14:04:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:16] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:16] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:16] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:16] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:16] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:16] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:16] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:16] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:20] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:04:23] BASARI: MAVLink akışı alındı (sistem 1)
+[14:04:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:23] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:23] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:23] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:23] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:23] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:23] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:23] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:23] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:23] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:23] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:26] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:04:31] BASARI: MAVLink akışı alındı (sistem 1)
+[14:04:31] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:31] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:31] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:31] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:31] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:31] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:31] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:31] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:31] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:31] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:31] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:34] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:04:38] BASARI: MAVLink akışı alındı (sistem 1)
+[14:04:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:38] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:38] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:38] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:38] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:38] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:38] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:41] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:04:42] BASARI: MAVLink akışı alındı (sistem 1)
+[14:04:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:45] BILGI: FCU: Ground start
+[14:04:45] HATA: FCU: Skipping INS calibration
+[14:04:45] BILGI: FCU: Calibrating barometer
+[14:04:45] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:45] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:45] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:45] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:45] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:45] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:45] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:45] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:50] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:04:52] BASARI: MAVLink akışı alındı (sistem 1)
+[14:04:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:52] BILGI: FCU: RCInput: decoding UDP (Pulses)
+[14:04:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:57] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:04:58] BASARI: MAVLink akışı alındı (sistem 1)
+[14:04:58] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:58] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:58] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:04:58] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:58] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:58] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:58] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:04:58] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:04:58] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:04] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:05:05] BASARI: MAVLink akışı alındı (sistem 1)
+[14:05:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:05] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:05] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:05] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:05] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:05] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:05] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:05] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:05] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:11] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:05:12] BASARI: MAVLink akışı alındı (sistem 1)
+[14:05:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:12] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:12] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:12] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:12] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:12] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:12] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:18] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:05:19] BASARI: MAVLink akışı alındı (sistem 1)
+[14:05:19] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:19] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:19] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:19] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:19] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:19] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:19] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:19] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:19] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:19] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:19] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:19] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:25] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:05:26] BASARI: MAVLink akışı alındı (sistem 1)
+[14:05:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:26] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:26] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:26] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:26] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:26] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:26] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:32] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:05:32] BASARI: MAVLink akışı alındı (sistem 1)
+[14:05:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:32] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:32] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:32] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:32] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:32] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:32] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:37] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:05:39] BASARI: MAVLink akışı alındı (sistem 1)
+[14:05:39] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:39] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:39] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:39] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:39] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:39] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:39] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:39] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:39] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:44] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:05:45] BASARI: MAVLink akışı alındı (sistem 1)
+[14:05:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:45] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:45] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:45] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:45] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:45] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:45] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:50] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:05:51] BASARI: MAVLink akışı alındı (sistem 1)
+[14:05:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:57] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:05:59] BASARI: MAVLink akışı alındı (sistem 1)
+[14:05:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:05:59] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:59] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:59] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:59] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:05:59] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:05:59] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:04] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:06:06] BASARI: MAVLink akışı alındı (sistem 1)
+[14:06:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:11] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:06:12] BASARI: MAVLink akışı alındı (sistem 1)
+[14:06:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:12] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:12] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:12] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:12] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:12] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:12] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:17] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:06:18] BASARI: MAVLink akışı alındı (sistem 1)
+[14:06:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:18] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:18] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:18] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:18] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:18] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:18] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:24] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:06:25] BASARI: MAVLink akışı alındı (sistem 1)
+[14:06:25] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:25] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:25] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:25] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:25] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:25] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:25] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:25] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:25] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:30] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:06:32] BASARI: MAVLink akışı alındı (sistem 1)
+[14:06:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:32] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:32] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:32] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:32] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:32] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:32] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:32] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:32] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:38] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:06:39] BASARI: MAVLink akışı alındı (sistem 1)
+[14:06:39] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:39] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:39] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:39] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:39] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:39] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:39] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:39] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:39] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:44] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:06:46] BASARI: MAVLink akışı alındı (sistem 1)
+[14:06:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:46] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:46] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:46] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:46] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:46] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:46] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:46] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:46] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:51] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:06:52] BASARI: MAVLink akışı alındı (sistem 1)
+[14:06:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:58] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:06:59] BASARI: MAVLink akışı alındı (sistem 1)
+[14:06:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:06:59] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:59] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:59] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:59] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:06:59] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:06:59] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:05] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:07:07] BASARI: MAVLink akışı alındı (sistem 1)
+[14:07:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:07] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:07] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:07] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:07] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:07] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:07] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:07] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:07] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:11] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:07:14] BASARI: MAVLink akışı alındı (sistem 1)
+[14:07:14] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:14] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:14] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:14] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:14] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:14] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:14] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:14] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:14] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:14] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:14] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:18] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:07:20] BASARI: MAVLink akışı alındı (sistem 1)
+[14:07:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:20] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:20] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:20] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:20] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:20] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:20] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:24] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:07:27] BASARI: MAVLink akışı alındı (sistem 1)
+[14:07:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:27] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:27] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:27] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:27] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:27] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:27] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:31] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:07:33] BASARI: MAVLink akışı alındı (sistem 1)
+[14:07:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:33] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:33] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:33] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:33] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:33] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:33] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:38] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:07:40] BASARI: MAVLink akışı alındı (sistem 1)
+[14:07:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:40] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:40] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:40] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:40] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:40] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:40] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:40] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:40] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:44] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:07:45] BASARI: MAVLink akışı alındı (sistem 1)
+[14:07:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:45] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:45] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:45] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:45] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:45] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:45] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:50] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:07:52] BASARI: MAVLink akışı alındı (sistem 1)
+[14:07:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:52] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:52] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:56] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:07:59] BASARI: MAVLink akışı alındı (sistem 1)
+[14:07:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:07:59] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:59] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:59] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:59] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:07:59] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:07:59] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:03] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:08:06] BASARI: MAVLink akışı alındı (sistem 1)
+[14:08:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:06] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:06] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:10] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:08:13] BASARI: MAVLink akışı alındı (sistem 1)
+[14:08:13] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:13] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:13] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:13] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:13] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:13] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:13] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:13] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:13] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:17] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:08:20] BASARI: MAVLink akışı alındı (sistem 1)
+[14:08:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:20] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:20] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:20] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:20] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:20] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:20] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:20] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:20] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:25] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:08:27] BASARI: MAVLink akışı alındı (sistem 1)
+[14:08:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:27] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:27] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:27] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:27] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:27] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:27] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:32] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:08:35] BASARI: MAVLink akışı alındı (sistem 1)
+[14:08:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:35] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:35] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:35] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:35] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:35] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:35] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:35] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:35] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:39] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:08:42] BASARI: MAVLink akışı alındı (sistem 1)
+[14:08:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:42] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:42] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:43] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:43] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:43] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:43] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:43] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:43] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:47] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:08:50] BASARI: MAVLink akışı alındı (sistem 1)
+[14:08:50] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:50] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:50] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:50] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:50] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:50] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:50] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:50] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:50] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:54] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:08:57] BASARI: MAVLink akışı alındı (sistem 1)
+[14:08:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:08:57] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:57] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:57] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:57] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:57] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:57] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:08:57] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:08:57] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:09:01] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:09:04] BASARI: MAVLink akışı alındı (sistem 1)
+[14:09:04] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:04] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:04] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:04] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:04] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:09:04] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:09:04] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:09:04] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:09:04] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:09:04] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:09:04] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:09:04] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:09:09] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:09:12] BASARI: MAVLink akışı alındı (sistem 1)
+[14:09:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:12] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:09:12] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:09:12] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:09:12] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:09:12] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:09:12] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:09:14] HATA: FCU/telemetri bağlantısı KOPTU!
+[14:09:16] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:09:20] BASARI: MAVLink akışı alındı (sistem 1)
+[14:09:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:20] BILGI: FCU: ArduPlane V4.8.0-dev (e080acb2)
+[14:09:20] BILGI: FCU: 9f13d743f2a64af4a89baa1ff8f3b36d
+[14:09:23] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:09:27] BASARI: MAVLink akışı alındı (sistem 1)
+[14:09:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:31] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:09:34] BASARI: MAVLink akışı alındı (sistem 1)
+[14:09:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:38] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:09:41] BASARI: MAVLink akışı alındı (sistem 1)
+[14:09:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:43] HATA: FCU/telemetri bağlantısı KOPTU!
+[14:09:45] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:09:49] BASARI: MAVLink akışı alındı (sistem 1)
+[14:09:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:52] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:09:56] BASARI: MAVLink akışı alındı (sistem 1)
+[14:09:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:09:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:00] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:10:03] BASARI: MAVLink akışı alındı (sistem 1)
+[14:10:03] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:03] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:03] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:03] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:07] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:10:11] BASARI: MAVLink akışı alındı (sistem 1)
+[14:10:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:14] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:10:19] BASARI: MAVLink akışı alındı (sistem 1)
+[14:10:19] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:19] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:19] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:19] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:22] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:10:26] BASARI: MAVLink akışı alındı (sistem 1)
+[14:10:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:29] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:10:33] BASARI: MAVLink akışı alındı (sistem 1)
+[14:10:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:36] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:10:40] BASARI: MAVLink akışı alındı (sistem 1)
+[14:10:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:43] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:10:47] BASARI: MAVLink akışı alındı (sistem 1)
+[14:10:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:50] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:10:53] BASARI: MAVLink akışı alındı (sistem 1)
+[14:10:53] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:53] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:53] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:56] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:10:59] BASARI: MAVLink akışı alındı (sistem 1)
+[14:10:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:10:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:02] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:11:05] BASARI: MAVLink akışı alındı (sistem 1)
+[14:11:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:08] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:11:11] BASARI: MAVLink akışı alındı (sistem 1)
+[14:11:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:14] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:11:18] BASARI: MAVLink akışı alındı (sistem 1)
+[14:11:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:21] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:11:24] BASARI: MAVLink akışı alındı (sistem 1)
+[14:11:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:27] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:11:30] BASARI: MAVLink akışı alındı (sistem 1)
+[14:11:30] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:30] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:30] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:33] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:11:36] BASARI: MAVLink akışı alındı (sistem 1)
+[14:11:36] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:36] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:36] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:39] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:11:41] BASARI: MAVLink akışı alındı (sistem 1)
+[14:11:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:44] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:11:46] BASARI: MAVLink akışı alındı (sistem 1)
+[14:11:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:49] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:11:51] BASARI: MAVLink akışı alındı (sistem 1)
+[14:11:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:54] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:11:56] BASARI: MAVLink akışı alındı (sistem 1)
+[14:11:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:11:59] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:01] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:01] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:01] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:01] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:04] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:06] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:10] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:12] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:15] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:18] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:21] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:23] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:26] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:28] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:31] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:33] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:36] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:38] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:41] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:43] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:43] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:43] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:43] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:46] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:48] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:48] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:48] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:51] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:12:53] BASARI: MAVLink akışı alındı (sistem 1)
+[14:12:53] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:53] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:53] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:12:56] BILGI: FCU: Barometer 1 calibration complete
+[14:12:56] BILGI: FCU: Barometer 2 calibration complete
+[14:12:56] BILGI: FCU: Airspeed 1 calibration started
+[14:12:56] BILGI: FCU: ArduPilot Ready
+[14:12:58] HATA: FCU/telemetri bağlantısı KOPTU!
+[14:12:59] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:02] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:02] UYARI: FCU: Throttle failsafe off
+[14:13:05] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:07] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:10] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:12] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:15] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:18] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:18] BILGI: FCU: Field Elevation Set: 584m
+[14:13:21] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:23] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:26] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:28] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:31] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:33] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:36] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:38] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:41] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:42] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:45] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:47] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:50] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:52] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:55] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:13:57] BASARI: MAVLink akışı alındı (sistem 1)
+[14:13:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:13:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:00] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:02] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:05] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:07] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:10] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:12] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:15] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:17] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:17] HATA: SINIR İHLALİ! Uçuş alanının dışına çıkıldı (10 sn'de eleme, -200)
+[14:14:19] HATA: FCU/telemetri bağlantısı KOPTU!
+[14:14:20] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:22] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:22] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:22] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:25] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:26] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:29] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:31] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:31] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:31] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:31] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:34] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:36] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:36] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:36] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:39] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:41] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:44] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:46] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:49] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:51] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:54] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:14:56] BASARI: MAVLink akışı alındı (sistem 1)
+[14:14:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:14:59] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:02] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:05] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:07] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:10] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:11] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:14] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:16] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:19] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:20] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:23] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:24] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:27] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:29] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:32] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:33] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:36] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:37] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:37] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:37] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:40] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:41] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:44] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:45] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:48] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:49] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:52] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:53] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:53] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:53] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:56] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:15:57] BASARI: MAVLink akışı alındı (sistem 1)
+[14:15:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:15:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:00] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:01] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:01] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:04] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:05] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:08] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:08] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:08] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:08] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:11] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:12] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:15] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:16] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:19] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:20] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:23] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:23] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:26] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:27] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:27] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:30] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:30] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:30] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:30] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:33] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:34] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:37] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:37] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:37] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:37] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:40] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:41] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:44] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:44] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:44] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:44] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:47] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:48] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:48] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:48] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:51] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:51] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:54] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:54] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:54] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:57] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:16:58] BASARI: MAVLink akışı alındı (sistem 1)
+[14:16:58] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:16:58] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:01] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:01] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:01] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:01] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:04] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:05] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:08] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:08] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:08] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:08] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:11] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:11] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:14] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:14] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:14] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:14] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:17] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:17] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:20] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:20] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:23] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:23] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:26] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:26] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:29] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:29] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:34] HATA: FCU/telemetri bağlantısı KOPTU!
+[14:17:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:44] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:44] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:50] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:50] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:53] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:56] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:56] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:59] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:17:59] BASARI: MAVLink akışı alındı (sistem 1)
+[14:17:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:17:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:02] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:18:02] BASARI: MAVLink akışı alındı (sistem 1)
+[14:18:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:05] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:18:05] BASARI: MAVLink akışı alındı (sistem 1)
+[14:18:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:08] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:18:08] BASARI: MAVLink akışı alındı (sistem 1)
+[14:18:08] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:11] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:18:11] BASARI: MAVLink akışı alındı (sistem 1)
+[14:18:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:14] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:25] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:25] BILGI: FCU: Airspeed 1 calibrated
+[14:18:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:31] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:37] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:48] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:54] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:54] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:18:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:02] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:19:02] BASARI: MAVLink akışı alındı (sistem 1)
+[14:19:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:08] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:08] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:11] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:19:11] BASARI: MAVLink akışı alındı (sistem 1)
+[14:19:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:14] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:14] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:17] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:23] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:19:23] BASARI: MAVLink akışı alındı (sistem 1)
+[14:19:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:26] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:19:26] BASARI: MAVLink akışı alındı (sistem 1)
+[14:19:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:32] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:37] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:44] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:54] HATA: FCU/telemetri bağlantısı KOPTU!
+[14:19:55] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:19:57] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:00] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:03] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:08] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:13] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:19] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:21] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:31] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:34] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:37] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:40] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:42] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:50] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:50] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:53] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:55] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:58] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:20:58] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:01] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:03] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:06] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:08] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:13] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:21] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:23] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:31] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:38] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:43] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:46] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:48] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:51] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:54] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:21:59] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:04] HATA: FCU/telemetri bağlantısı KOPTU!
+[14:22:04] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:04] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:09] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:11] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:13] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:22] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:26] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:29] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:31] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:33] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:35] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:37] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:39] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:41] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:43] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:45] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:47] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:49] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:52] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:54] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:56] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:22:58] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:00] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:02] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:05] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:07] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:09] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:12] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:14] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:16] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:18] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:20] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:23] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:23:24] BASARI: MAVLink akışı alındı (sistem 1)
+[14:23:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:24] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:27] UYARI: MAVLink akışı kesildi (3 sn paket yok)
+[14:23:28] BASARI: MAVLink akışı alındı (sistem 1)
+[14:23:28] HATA: Komut cevabı (id 410): BAŞARISIZ
+[14:23:31] UYARI: MAVLink akışı kesildi (3 sn paket yok)
