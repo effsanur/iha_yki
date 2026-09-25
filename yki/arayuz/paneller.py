@@ -565,7 +565,22 @@ class KilitPaneli(QWidget):
         self.kilit_gonder_dugme.setProperty("rol", "onay")
         self.kilit_gonder_dugme.clicked.connect(self._kilit_gonder_elle)
         kduzen.addWidget(self.kilit_gonder_dugme)
+
+        self.rakip_tablosu = QTableWidget(0, 5)
+        self.rakip_tablosu.setHorizontalHeaderLabels(["Takım", "Enlem", "Boylam", "İrtifa", "Hız"])
+        self.rakip_tablosu.setEditTriggers(QTableWidget.NoEditTriggers)
+        self.rakip_tablosu.setAlternatingRowColors(True)
+        self.rakip_tablosu.setColumnWidth(0, 55)
+        self.rakip_tablosu.setColumnWidth(1, 90)
+        self.rakip_tablosu.setColumnWidth(2, 90)
+        self.rakip_tablosu.setColumnWidth(3, 70)
+        self.rakip_tablosu.setColumnWidth(4, 60)
+        self.rakip_tablosu.setMinimumHeight(140)
+        self.rakip_tablosu.verticalHeader().setVisible(False)
+        self.rakip_tablosu.horizontalHeader().setStretchLastSection(True)
+
         duzen.addWidget(kkutu)
+        duzen.addWidget(self.rakip_tablosu, 1)
         duzen.addStretch(1)
 
     def otonom_bayragi(self) -> bool:
