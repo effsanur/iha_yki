@@ -15,10 +15,12 @@ import unittest
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import requests  # noqa: E402
+from PySide6.QtWidgets import QApplication  # noqa: E402
 
 import sim_sunucu  # noqa: E402
 from yki import geo  # noqa: E402
 from yki.ayarlar import Ayarlar  # noqa: E402
+from yki.arayuz.ana_pencere import AnaPencere, UygBaglam  # noqa: E402
 from yki.durum import DurumModeli, mono  # noqa: E402
 from yki.sunucu_istemci import SunucuIstemci, SunucuSaati, dict_ms, saat_dict_ms  # noqa: E402
 
@@ -130,6 +132,44 @@ class ProtokolTesti(unittest.TestCase):
         self.assertEqual(len(hss["hss_koordinat_bilgileri"]), 3)
         for alan in ("id", "hssEnlem", "hssBoylam", "hssYaricap"):
             self.assertIn(alan, hss["hss_koordinat_bilgileri"][0])
+
+
+class ArayuzTesti(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.app = QApplication.instance() or QApplication([])
+
+    def test_kamera_ve_harita_alanlari_yer_degistir(self):
+        class StubIstemci:
+            def qr_sorgula(self):
+                return None
+
+            def hss_sorgula(self):
+                return None
+
+            def kilitlenme_gonder(self, *args, **kwargs):
+                return None
+
+            def kamikaze_gonder(self, *args, **kwargs):
+                return None
+
+        ayarlar = Ayarlar(None)
+        durum = DurumModeli()
+        pencere = AnaPencere(UygBaglam(ayarlar, durum, saat=None, istemci=StubIstemci(), kaynaklar=[]))
+
+        self.assertFalse(pencere._alanlar_degisti)
+        self.assertIs(pencere.orta_duzen.itemAt(1).widget(), pencere.harita)
+        self.assertIs(pencere.sag_duzen.itemAt(0).widget(), pencere.video_paneli)
+
+        pencere._alanlari_degistir()
+        self.assertTrue(pencere._alanlar_degisti)
+        self.assertIs(pencere.sag_duzen.itemAt(0).widget(), pencere.harita)
+        self.assertIs(pencere.orta_duzen.itemAt(1).widget(), pencere.video_paneli)
+
+        pencere._alanlari_degistir()
+        self.assertFalse(pencere._alanlar_degisti)
+        self.assertIs(pencere.orta_duzen.itemAt(1).widget(), pencere.harita)
+        self.assertIs(pencere.sag_duzen.itemAt(0).widget(), pencere.video_paneli)
 
 
 class IstemciTesti(unittest.TestCase):

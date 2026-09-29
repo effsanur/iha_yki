@@ -137,10 +137,10 @@ class AnaPencere(QMainWindow):
         # orta: durum şeridi + UYDU HARİTASI + görev planı şeridi
         # (şartname: sınır + rakip + HSS daima görünür)
         orta = QWidget()
-        orta_duzen = QVBoxLayout(orta)
-        orta_duzen.setContentsMargins(6, 6, 6, 6)
+        self.orta_duzen = QVBoxLayout(orta)
+        self.orta_duzen.setContentsMargins(6, 6, 6, 6)
         self.serit = DurumSeridi()
-        orta_duzen.addWidget(self.serit)
+        self.orta_duzen.addWidget(self.serit)
         self.harita = HaritaWidget(self.uyg.ayarlar, self.uyg.durum)
         self.gorev_seridi = GorevPlaniSeridi(self.uyg, self.komut_kaynagi)
         self.harita.buraya_uc_cb = self._buraya_uc
@@ -148,28 +148,30 @@ class AnaPencere(QMainWindow):
         self.harita.wp_ekle_cb = self.gorev_seridi.wp_ekle
         self.harita.wp_sil_cb = self.gorev_seridi.wp_sil
         self.harita.wp_listesi = self.gorev_seridi.wps  # ortak liste
-        orta_duzen.addWidget(self.harita, 1)
-        orta_duzen.addWidget(self.gorev_seridi)
+        self.orta_duzen.addWidget(self.harita, 1)
+        self.orta_duzen.addWidget(self.gorev_seridi)
         bolucu.addWidget(orta)
 
         # sağ: kamera alanı, görev/HSS sekmeleri
         self.sag_panel = QWidget()
-        sag_duzen = QVBoxLayout(self.sag_panel)
-        sag_duzen.setContentsMargins(0, 0, 0, 0)
+        self.sag_duzen = QVBoxLayout(self.sag_panel)
+        self.sag_duzen.setContentsMargins(0, 0, 0, 0)
         self.kilit_paneli = KilitPaneli(self.uyg)
         self.kamikaze_paneli = KamikazePaneli(self.uyg)
         self.hss_paneli = HssPaneli(self.uyg)
         self.video_paneli = VideoPaneli(self.uyg)
+        self.video_paneli.goruntu.clicked.connect(self._alanlari_degistir)
         self.video_paneli.setFixedHeight(340)
-        sag_duzen.addWidget(self.video_paneli)
+        self.sag_duzen.addWidget(self.video_paneli)
 
         self.sekmeler = QTabWidget()
         self.sekmeler.setTabPosition(QTabWidget.North)
         self.sekmeler.addTab(self.kilit_paneli, "KİLİTLENME")
         self.sekmeler.addTab(self.kamikaze_paneli, "KAMİKAZE")
         self.sekmeler.addTab(self.hss_paneli, "HSS")
-        sag_duzen.addWidget(self.sekmeler, 1)
+        self.sag_duzen.addWidget(self.sekmeler, 1)
         bolucu.addWidget(self.sag_panel)
+        self._alanlar_degisti = False
 
         bolucu.setStretchFactor(0, 2)
         bolucu.setStretchFactor(1, 6)
@@ -186,6 +188,24 @@ class AnaPencere(QMainWindow):
         self.addDockWidget(Qt.BottomDockWidgetArea, rihtim)
 
         self.statusBar().showMessage("Hazır — sunucuya giriş yapın ve telemetriyi başlatın")
+
+    def _alanlari_degistir(self) -> None:
+        """Kamera ve harita alanlarını birbirleriyle değiştirir; ikinci tık geri döndürür."""
+        if self._alanlar_degisti:
+            self.orta_duzen.removeWidget(self.video_paneli)
+            self.sag_duzen.removeWidget(self.harita)
+            self.orta_duzen.insertWidget(1, self.harita, 1)
+            self.sag_duzen.insertWidget(0, self.video_paneli)
+            self.video_paneli.setFixedHeight(340)
+            self._alanlar_degisti = False
+            return
+
+        self.orta_duzen.removeWidget(self.harita)
+        self.sag_duzen.removeWidget(self.video_paneli)
+        self.sag_duzen.insertWidget(0, self.harita)
+        self.orta_duzen.insertWidget(1, self.video_paneli, 1)
+        self.video_paneli.setFixedHeight(730)
+        self._alanlar_degisti = True
 
     # ------------- komut yönlendirme -------------
     def komut_kaynagi(self):

@@ -816,6 +816,15 @@ class _VideoIsParcasi(QThread):
         yakala.release()
 
 
+class KameraGoruntu(QLabel):
+    clicked = Signal()
+
+    def mousePressEvent(self, event):
+        if event.button() == Qt.LeftButton:
+            self.clicked.emit()
+        super().mousePressEvent(event)
+
+
 class VideoPaneli(QWidget):
     """İsteğe bağlı canlı kamera izleme (şartname: YKİ'ye 640x480 aktarım tavsiye edilir)."""
 
@@ -832,7 +841,7 @@ class VideoPaneli(QWidget):
         satir.addWidget(self.url_girdi, 1)
         satir.addWidget(self.baslat_dugme)
         duzen.addLayout(satir)
-        self.goruntu = QLabel("Video kapalı" if cv2 else "opencv-python kurulu değil (pip install opencv-python)")
+        self.goruntu = KameraGoruntu("Video kapalı" if cv2 else "opencv-python kurulu değil (pip install opencv-python)")
         self.goruntu.setAlignment(Qt.AlignCenter)
         self.goruntu.setMinimumHeight(240)
         self.goruntu.setStyleSheet(f"background:#05070a; border:1px solid {stiller.KENAR}; border-radius:6px;")
