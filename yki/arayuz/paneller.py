@@ -1,6 +1,7 @@
 """Arayüz panelleri: durum şeridi, telemetri, sunucu, görev (kilit/kamikaze), HSS, log, video."""
 
 from __future__ import annotations
+from ultralytics import YOLO
 
 import html
 import os
@@ -786,35 +787,105 @@ class LogPaneli(QWidget):
 
 
 class _VideoIsParcasi(QThread):
-    kare_hazir = Signal(QImage)
-    hata = Signal(str)
+  kare_hazir = Signal(QImage)
+  hata = Signal(str)
 
-    def __init__(self, url: str):
-        super().__init__()
-        self.url = url
-        self._calisiyor = True
+  def __init__(self, url: str, durum=None):
+    super().__init__()
+    self.url = url
+    self._calisiyor = True
+    self.durum = durum
+    # YOLO modelini burada yüklüyoruz
+    self.model = YOLO("best.pt")
 
-    def durdur(self) -> None:
-        self._calisiyor = False
+  def durdur(self) -> None:
+    self._calisiyor = False
 
-    def run(self) -> None:
-        kaynak = self.url
-        if kaynak.isdigit():
-            kaynak = int(kaynak)
-        yakala = cv2.VideoCapture(kaynak)
-        if not yakala.isOpened():
-            self.hata.emit(f"Video kaynağı açılamadı: {self.url}")
-            return
-        while self._calisiyor:
-            tamam, kare = yakala.read()
-            if not tamam:
-                self.hata.emit("Video akışı kesildi")
-                break
-            rgb = cv2.cvtColor(kare, cv2.COLOR_BGR2RGB)
-            h, w, _ = rgb.shape
-            self.kare_hazir.emit(QImage(rgb.data, w, h, 3 * w, QImage.Format_RGB888).copy())
-        yakala.release()
+  def run(self) -> None:
+    kaynak = self.url
+    if kaynak.isdigit():
+      kaynak = int(kaynak)
+    yakala = cv2.VideoCapture(kaynak)
+    if not yakala.isOpened():
+      self.hata.emit(f"Video kaynağı açılamadı: {self.url}")
+      return
 
+    while self._calisiyor:
+      tamam, kare = yakala.read()
+      if not tamam:
+        self.hata.emit("Video akışı kesildi")
+        break
+
+      h, w, _ = kare.shape
+
+      # --- ŞARTNAME ALAN ÇİZİMLERİ ---
+      av_xmin, av_xmax = int(w * 0.25), int(w * 0.75)
+      av_ymin, av_ymax = int(h * 0.10), int(h * 0.90)
+      # Sarı Hedef Vuruş Alanı (Av) Çerçevesi
+      cv2.rectangle(
+          kare, (av_xmin, av_ymin), (av_xmax, av_ymax), (0, 255, 255), 2
+      )
+
+      # --- YOLOv11 TESPİT VE KİLİTLENME ENTEGRASYONU ---
+      results = self.model(kare, verbose=False, conf=0.6)
+      kilit_tespit_edildi = False
+      best_box = None
+
+      for r in results:
+        for box in r.boxes:
+          x1, y1, x2, y2 = map(int, box.xyxy[0])
+          center_x = int((x1 + x2) / 2)
+          center_y = int((y1 + y2) / 2)
+          target_w = x2 - x1
+          target_h = y2 - y1
+
+          # Şartname Kriteri: Merkez Av içinde ve boyut >= %5 mi?
+          if (
+              av_xmin <= center_x <= av_xmax
+              and av_ymin <= center_y <= av_ymax
+              and target_w >= w * 0.05
+              and target_h >= h * 0.05
+          ):
+            kilit_tespit_edildi = True
+            best_box = (x1, y1, x2, y2, center_x, center_y, target_w, target_h)
+            # Şartnameye uygun Kırmızı Kilitlenme Dörtgeni
+            cv2.rectangle(kare, (x1, y1), (x2, y2), (0, 0, 255), 3)
+            cv2.putText(
+                kare,
+                "KILITLENDI",
+                (x1, y1 - 10),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                0.5,
+                (0, 0, 255),
+                2,
+            )
+          else:
+            # Alan dışındakiler için yeşil kutu
+            cv2.rectangle(kare, (x1, y1), (x2, y2), (0, 255, 0), 2)
+
+      # --- DURUM MODELİNİ GÜNCELLEME ---
+      if hasattr(self, "durum") and self.durum:
+        if kilit_tespit_edildi and best_box:
+          _, _, _, _, cx, cy, tw, th = best_box
+          self.durum.kilit_guncelle(
+              aktif=True,
+              merkez_x=cx,
+              merkez_y=cy,
+              genislik=tw,
+              yukseklik=th,
+              video_genislik=w,
+              video_yukseklik=h,
+          )
+        else:
+          self.durum.kilit_guncelle(aktif=False)
+
+      # --- GÖRÜNTÜYÜ YKİ ARAYÜZÜNE AKTARMA ---
+      rgb = cv2.cvtColor(kare, cv2.COLOR_BGR2RGB)
+      self.kare_hazir.emit(
+          QImage(rgb.data, w, h, 3 * w, QImage.Format_RGB888).copy()
+      )
+
+    yakala.release()
 
 class KameraGoruntu(QLabel):
     clicked = Signal()
@@ -861,7 +932,7 @@ class VideoPaneli(QWidget):
         if not url:
             self.uyg.durum.olay("UYARI", "Video adresi boş")
             return
-        self._is = _VideoIsParcasi(url)
+        self._is = _VideoIsParcasi(url, durum=self.uyg.durum)
         self._is.kare_hazir.connect(self._kare)
         self._is.hata.connect(lambda m: self.uyg.durum.olay("HATA", m))
         self._is.start()
